@@ -15,12 +15,12 @@ We selected the Snowflake Public Data Set due to the variety of options present 
 
 Tables Count: 6
 Row count per table-
-Urban Crime Attributes:
-Urban Crime Attributes Point-in-Time History:
-Urban Crime Incident Log:
-Urban Crime Incident Log Point-in-Time History:
-Urban Crime Timeseries:
-Urban Crime Timeseries Point-in-Time History:
+Urban Crime Attributes: 26
+Urban Crime Attributes Point-in-Time History: 26
+Urban Crime Incident Log: 18,930,573
+Urban Crime Incident Log Point-in-Time History: 80,648,291
+Urban Crime Timeseries: 11,877,422
+Urban Crime Timeseries Point-in-Time History: 31,995,035
 
 
 ## Questions and Justification
