@@ -1,5 +1,5 @@
 # Group Project 2
-## Team Name:
+## Team Name
 Group 8- City Police Departments
 ## Team Members
 1. Jason Bui [@jasonbui](https://github.com/jjayyan)
