@@ -14,6 +14,7 @@ Chosen Database: City Police Departments (Snowflake Public Data Set)
 We selected the Snowflake Public Data Set due to the variety of options present in the entire dataset. Narrowing in on the City Police Departments, this dataset immediately sparked our eye. We thought it would be very interesting to compare different crime rates both across different cities and within different zip codes of cities themselves.
 
 Tables Count: 6
+
 Row count per table-
 - Urban Crime Attributes: 26
 - Urban Crime Attributes Point-in-Time History: 26
