@@ -9,6 +9,9 @@ Group 8- City Police Departments
 5. Matthew Watson[@matthewwatson](https://github.com/mattwaa)
 
 ## Data Description
+Chosen Database: City Police Departments (Snowflake Public Data Set)
+
+We selected the Snowflake Public Data Set due to the variety of options present in the entire dataset. Narrowing in on the City Police Departments, this dataset immediately sparked our eye. We thought it would be very interesting to compare different crime rates both across different cities and within different zip codes of cities themselves.
 
 ## Questions and Justification
 
