@@ -17,7 +17,7 @@ Tables Count: 6
 
 Tables
 - Urban Crime Attributes:
-      Rows: 26
+        - Rows: 26
 - Urban Crime Attributes Point-in-Time History: 26
 - Urban Crime Incident Log: 18,930,573
 - Urban Crime Incident Log Point-in-Time History: 80,648,291
