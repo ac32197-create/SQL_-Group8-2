@@ -65,6 +65,11 @@ Question 2:
 The results show 
 
 ## Streamlit App
+Question 1:
+<img width="1656" height="621" alt="image" src="https://github.com/user-attachments/assets/f771d1f6-7790-469f-b331-342ca22e2994" />
+<img width="1706" height="752" alt="image" src="https://github.com/user-attachments/assets/3e407e2e-050a-4e16-b5c1-727a5879c531" />
+
+
 Question 2:
 <img width="1381" height="634" alt="image" src="https://github.com/user-attachments/assets/46ed3f91-00a1-400f-8811-aa9098579c93" />
 <img width="1723" height="859" alt="image" src="https://github.com/user-attachments/assets/e4489aec-cda9-4bef-a8dd-faf2eb6f9648" />
