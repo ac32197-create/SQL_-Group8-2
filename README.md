@@ -44,11 +44,18 @@ columns used: city, offense category
 Relevance? Understanding what crimes are most prevalent in different cities is important to understand for public safety and operational efficiency. Depending on what kind of crime it is, more violent or less, it changes how citizens view an area and what precautions must be taken. The focus on the city changes how we view things and eliminates a one-size-fits-all approach. Also, how we would approach something like burglary would be different then assualt or drug-related crimes. This question is non-trivial because the relationship between crime type and city is not correlated, and many different factors go into why these different crimes are more related in one area vs another. 
 
 ## Data Manipulations
+Question 1:
+<img width="639" height="489" alt="Screenshot 2026-04-27 at 11 57 50 AM" src="https://github.com/user-attachments/assets/3f0b2d31-1f31-4e11-945f-e4ed96a1586a" />
+
+
 Question 2:
 <img width="932" height="262" alt="image" src="https://github.com/user-attachments/assets/da08b065-20ce-40c8-89b2-d56061268ee4" />
 
 
 ## Analysis and Results
+Question 1:
+<img width="1052" height="258" alt="Screenshot 2026-04-27 at 11 56 03 AM" src="https://github.com/user-attachments/assets/e5f4791b-f85f-4276-a940-350767aba443" />
+
 Question 2:
 <img width="1382" height="623" alt="image" src="https://github.com/user-attachments/assets/2a1f89c1-f66d-49a7-87f2-e4550ae4da54" />
 <img width="1373" height="625" alt="image" src="https://github.com/user-attachments/assets/d640975a-9a0d-46df-8cf8-e43a8be7c17e" />
