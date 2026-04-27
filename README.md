@@ -34,35 +34,35 @@ Table Key Columns
 
 ## Questions and Justification
 Question 1: 
-How does the time of year influence crime frequency? Analyze trends by season (Spring, Summer, Fall, Winter) and determine whether certain seasons show statistically higher concentrations of violent incidents.
+How does the time of year influence Violent crime frequency? Analyze trends by season (Spring, Summer, Fall, Winter) and determine whether certain seasons show statistically higher concentrations of violent incidents.
 Columns used: date, value, and variable
 Relevance? The police and the city need to understand how crime fluctuates seasonally for both operational efficiency and public safety. Law enforcement and city officials have to be able to anticipate periods of increased crime to allocate resources effectively for both internal and external factors. This question is non-trivial because the relationship between season and crime is not uniform across cities or crime types. There are a range of factors affecting the crime rate, which makes it vary significantly and requires data-driven analysis. 
 
 Question 2: 
 What are the most frequently reported crime types within each city?
 columns used: city, offense category, count(*) as incident_count
-Relevance? Understanding what crimes are most prevalent in different cities is important to understand for public safety and operational efficiency. Depending on what kind of crime it is, more violent or less, it changes how citizens view an area and what precautions must be taken. The focus on the city changes how we view things and eliminates a one-size-fits-all approach. Also, how we would approach something like burglary would be different then assualt or drug-related crimes. This question is non-trivial because the relationship between crime type and city is not correlated, and many different factors go into why these different crimes are more related in one area vs another. 
+Relevance? Understanding the prevalence of crimes in different cities is crucial for public safety and operational efficiency. Depending on what kind of crime it is, more violent or less, it changes how citizens view an area and what precautions must be taken. The focus on the city changes how we view things and eliminates a one-size-fits-all approach. Also, how we would approach something like burglary would be different then assualt or drug-related crimes. This question is non-trivial because the relationship between crime type and city is not correlated, and many different factors go into why these different crimes are more related in one area vs another. 
 
 ## Data Manipulations
 Question 1:
 <img width="549" height="449" alt="Screenshot 2026-04-27 at 11 59 43 AM" src="https://github.com/user-attachments/assets/5099ba7b-2a30-4a54-9f87-e65d45abe3b9" />
-The first case when statements is used to categorize the months by their seasons. The sum adds the total number of crimes incidents within each season. The last formula is used to average the daily crime rate by season. The where clause narrows down the crime into violent crimes. The final case when statement is used to chronologically order the season.,
+The first case when statements is used to categorize the months by their seasons. The sum adds the total number of crime incidents within each season. The last formula is used to average the daily crime rate by season. The where clause narrows down the crime into violent crimes. The final case when statement is used to chronologically order the season.,
 
 Question 2:
 <img width="932" height="262" alt="image" src="https://github.com/user-attachments/assets/da08b065-20ce-40c8-89b2-d56061268ee4" />
-The count (*) query is to count the occurrence of incidents to then be able to group them by offense_category to be able to compare each category of crime presented in each city. Group by city is used so that the crimes can be compared by each city.
+The count (*) query is to count the occurrence of incidents, to be then able to group them by offense_category and compare each category of crime presented in each city. Group by city is used so that the crimes can be compared for each city.
 
 ## Analysis and Results
 Question 1:
 <img width="1052" height="258" alt="Screenshot 2026-04-27 at 11 56 03 AM" src="https://github.com/user-attachments/assets/e5f4791b-f85f-4276-a940-350767aba443" />
 <img width="767" height="259" alt="Screenshot 2026-04-27 at 12 12 42 PM" src="https://github.com/user-attachments/assets/23b23367-55b6-4dcc-92c8-e8acf8b27701" />
-This chart shows the amount of violent crime per season and the average daily crime rate per season. The results show that the amount of violent crime committed peaks during the summer time, then decreases as it gets colder, with the lowest amount being in winter. This means in terms of resource allocation, staffing, overtime budget, and proactive policing should be increased during the warmer seasons and decreased for the colder seasons. 
+This chart shows the amount of violent crime per season and the average daily crime rate per season. The results show that the amount of violent crime committed peaks during the summer time, then decreases as it gets colder, with the lowest amount being in winter. This means in terms of resource allocation, staffing, overtime budget, and proactive policing should be increased during the warmer seasons and decreased during the colder seasons. 
 
 Question 2:
 <img width="1382" height="623" alt="image" src="https://github.com/user-attachments/assets/2a1f89c1-f66d-49a7-87f2-e4550ae4da54" />
 <img width="1373" height="625" alt="image" src="https://github.com/user-attachments/assets/d640975a-9a0d-46df-8cf8-e43a8be7c17e" />
 
-The results show indicate the rate at which specific crimes occur in each of the cities within our data. The chart shows specifically which crimes occur in the highest numbers in each city. Theft is bar far the most common type of crime according to the graph. The bar graph then allows local police departments to prioritize resource allocation to curb the occurrences of the highest counts of crimes. The charts also allow the general public to get a broader idea of what crimes may affect them in their daily lives. The chart also shows that a larger population does not always indicate a higher amount of crime incidents. 
+The results indicate the rate at which specific crimes occur in each of the cities within our data. The chart shows specifically which crimes occur in the highest numbers in each city. Theft is by far the most common type of crime, according to the graph. The bar graph then allows local police departments to prioritize resource allocation to curb the occurrences of the highest counts of crimes. The charts also allow the general public to get a broader idea of what crimes may affect them in their daily lives. The chart also shows that a larger population does not always indicate a higher amount of crime incidents. 
 
 
 ## Streamlit App
@@ -76,6 +76,6 @@ Question 2:
 <img width="1381" height="634" alt="image" src="https://github.com/user-attachments/assets/46ed3f91-00a1-400f-8811-aa9098579c93" />
 <img width="1723" height="859" alt="image" src="https://github.com/user-attachments/assets/e4489aec-cda9-4bef-a8dd-faf2eb6f9648" />
 
-The "Urban Crime Incident Dashboard" leverages a dropdown function to group incident counts by city, providing departments with a comprehensive view of all crime categories spanning the past 15 years. This tool proves valuable insight  for tracking future crime trends and helping departments identify recurring patterns among the most popular crimes based on each city. Our interactive feature here is a slider that allows viewers to contract/expand the number of crimes that are being tallied per city. As a result, if you only wanted to view the top 5 crimes per city, you would easily be able to do so. However, if you want the full list of crimes, simply move the slider to the right, and the chart will automatically update to include the top "n" number of crimes you wish to view.
+The "Urban Crime Incident Dashboard" leverages a dropdown function to group incident counts by city, providing departments with a comprehensive view of all crime categories spanning the past 15 years. This tool provides valuable insight  for tracking future crime trends and helping departments identify recurring patterns among the most popular crimes in each city. Our interactive feature here is a slider that allows viewers to contract/expand the number of crimes that are being tallied per city. As a result, if you only wanted to view the top 5 crimes per city, you would easily be able to do so. However, if you want the full list of crimes, simply move the slider to the right, and the chart will automatically update to include the top "n" number of crimes you wish to view.
 
-AI was used  in the stream report to offer key insight at the bottom of the charts
+AI was used  in the stream report to offer key insights at the bottom of the charts
