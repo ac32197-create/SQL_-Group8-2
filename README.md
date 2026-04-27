@@ -45,7 +45,7 @@ Relevance? Understanding what crimes are most prevalent in different cities is i
 
 ## Data Manipulations
 Question 1:
-<img width="639" height="489" alt="Screenshot 2026-04-27 at 11 57 50 AM" src="https://github.com/user-attachments/assets/3f0b2d31-1f31-4e11-945f-e4ed96a1586a" />
+<img width="549" height="449" alt="Screenshot 2026-04-27 at 11 59 43 AM" src="https://github.com/user-attachments/assets/5099ba7b-2a30-4a54-9f87-e65d45abe3b9" />
 
 
 Question 2:
