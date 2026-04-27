@@ -46,7 +46,7 @@ Relevance? Understanding what crimes are most prevalent in different cities is i
 ## Data Manipulations
 Question 1:
 <img width="549" height="449" alt="Screenshot 2026-04-27 at 11 59 43 AM" src="https://github.com/user-attachments/assets/5099ba7b-2a30-4a54-9f87-e65d45abe3b9" />
-
+The first case when statements is used to categorize the months by their seasons. The sum adds the total number of crimes incidents within each season. The last formula is used to average the daily crime rate by season. The where clause narrows down the crime into violent crimes. The final case when statement is used to chronologically order the season.,
 
 Question 2:
 <img width="932" height="262" alt="image" src="https://github.com/user-attachments/assets/da08b065-20ce-40c8-89b2-d56061268ee4" />
