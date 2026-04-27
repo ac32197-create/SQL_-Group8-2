@@ -55,6 +55,8 @@ The count (*) query is to count the occurrence of incidents to then be able to g
 ## Analysis and Results
 Question 1:
 <img width="1052" height="258" alt="Screenshot 2026-04-27 at 11 56 03 AM" src="https://github.com/user-attachments/assets/e5f4791b-f85f-4276-a940-350767aba443" />
+<img width="767" height="259" alt="Screenshot 2026-04-27 at 12 12 42 PM" src="https://github.com/user-attachments/assets/23b23367-55b6-4dcc-92c8-e8acf8b27701" />
+
 
 Question 2:
 <img width="1382" height="623" alt="image" src="https://github.com/user-attachments/assets/2a1f89c1-f66d-49a7-87f2-e4550ae4da54" />
