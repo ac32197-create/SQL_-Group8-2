@@ -62,7 +62,8 @@ Question 2:
 <img width="1382" height="623" alt="image" src="https://github.com/user-attachments/assets/2a1f89c1-f66d-49a7-87f2-e4550ae4da54" />
 <img width="1373" height="625" alt="image" src="https://github.com/user-attachments/assets/d640975a-9a0d-46df-8cf8-e43a8be7c17e" />
 
-The results show 
+The results show indicate the rate at which specific crimes occur in each of the cities within our data. The chart shows specifically which crimes occur in the highest numbers in each city. Theft is bar far the most common type of crime according to the graph. The bar graph then allows local police departments to prioritize resource allocation to curb the occurrences of the highest counts of crimes. The charts also allow the general public to get a broader idea of what crimes may affect them in their daily lives. The chart also shows that a larger population does not always indicate a higher amount of crime incidents. 
+
 
 ## Streamlit App
 Question 1:
