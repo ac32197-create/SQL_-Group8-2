@@ -50,7 +50,7 @@ Question 1:
 
 Question 2:
 <img width="932" height="262" alt="image" src="https://github.com/user-attachments/assets/da08b065-20ce-40c8-89b2-d56061268ee4" />
-
+The count (*) query is to count the occurrence of incidents to then be able to group them by offense_category to be able to compare each category of crime presented in each city. Group by city is used so that the crimes can be compared by each city.
 
 ## Analysis and Results
 Question 1:
