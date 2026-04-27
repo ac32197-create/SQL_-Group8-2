@@ -78,3 +78,4 @@ Question 2:
 
 The "Urban Crime Incident Dashboard" leverages a dropdown function to group incident counts by city, providing departments with a comprehensive view of all crime categories spanning the past 15 years. This tool proves valuable insight  for tracking future crime trends and helping departments identify recurring patterns among the most popular crimes based on each city.
 
+AI was used  in the stream report to offer key insight at the bottom of the charts
