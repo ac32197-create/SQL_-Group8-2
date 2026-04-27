@@ -70,9 +70,11 @@ Question 1:
 <img width="1656" height="621" alt="image" src="https://github.com/user-attachments/assets/f771d1f6-7790-469f-b331-342ca22e2994" />
 <img width="1706" height="752" alt="image" src="https://github.com/user-attachments/assets/3e407e2e-050a-4e16-b5c1-727a5879c531" />
 
+The "Violent Incidents by Season" feature provides a clear breakdown of crime frequency across all four seasons, displaying the total incident count and the percentage change between seasons .This can help departments quickly gauge whether crime is trending upward or downward as the year progresses. The app also offers full customization of the crime database, enabling users to select which crime types to include and distinguish them by color.
 
 Question 2:
 <img width="1381" height="634" alt="image" src="https://github.com/user-attachments/assets/46ed3f91-00a1-400f-8811-aa9098579c93" />
 <img width="1723" height="859" alt="image" src="https://github.com/user-attachments/assets/e4489aec-cda9-4bef-a8dd-faf2eb6f9648" />
 
+The "Urban Crime Incident Dashboard" leverages a dropdown function to group incident counts by city, providing departments with a comprehensive view of all crime categories spanning the past 15 years. This tool proves valuable insight  for tracking future crime trends and helping departments identify recurring patterns among the most popular crimes based on each city.
 
