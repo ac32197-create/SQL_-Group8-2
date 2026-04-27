@@ -33,6 +33,10 @@ Table Key Columns
 
 
 ## Questions and Justification
+Question 1: 
+How does the time of year influence violent crime frequency? Analyze trends by season (Spring, Summer, Fall, Winter) and determine whether certain seasons show statistically higher concentrations of violent incidents.
+Question 2: 
+What are the most frequently reported crime types within each city?
 
 ## Data Manipulations
 
