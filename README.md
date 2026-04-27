@@ -37,6 +37,7 @@ Question 1:
 How does the time of year influence crime frequency? Analyze trends by season (Spring, Summer, Fall, Winter) and determine whether certain seasons show statistically higher concentrations of violent incidents.
 Columns used: date, offense category
 Relevance? The police and the city need to understand how crime fluctuates seasonally for both operational efficiency and public safety. Law enforcement and city officials have to be able to anticipate periods of increased crime to allocate resources effectively for both internal and external factors. This question is non-trivial because the relationship between season and crime is not uniform across cities or crime types. There are a range of factors affecting the crime rate, which makes it vary significantly and requires data-driven analysis. 
+
 Question 2: 
 What are the most frequently reported crime types within each city?
 columns used: city, offense category 
